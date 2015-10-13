@@ -19,3 +19,28 @@ volley.jar
 <uses-permission android:name="android.permission.INTERNET"/>
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 ```
+
+## Request Method Processing
+
+4 parameters need to be passed. They are as follows
+
+* mContext is the Context of the Class(eg - MainActivity.this)
+* URL is the url of the service(eg - http://www.youtube.com/get_video)
+* map is the parametres of the request is wrapped into HashMap
+* progressMessage - message to be shown during server request with Progress Dialog.
+
+```
+Map<String , String> map = new HashMap<String , String>();
+		map.put("Key", "VALUE");
+		
+		new VolleyTask(mContext, URL, map, progressMessage) {
+			@Override
+			protected void handleResponse(String response) {
+				handleResponce(response);
+			}
+			@Override
+			protected void handleError(VolleyError arg0) {
+			}
+		};
+		
+		```
