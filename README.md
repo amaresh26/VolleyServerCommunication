@@ -24,7 +24,7 @@ volley.jar
 
 4 parameters need to be passed. They are as follows
 
-* #mContext# is the Context of the Class(eg - MainActivity.this)
+* mContext is the Context of the Class(eg - MainActivity.this)
 * URL is the url of the service(eg - http://www.youtube.com/get_video)
 * map is the parametres of the request is wrapped into HashMap
 * progressMessage - message to be shown during server request with Progress Dialog.
