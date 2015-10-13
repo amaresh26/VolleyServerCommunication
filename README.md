@@ -9,11 +9,9 @@ volley.jar
 
 ## Steps for importing the jar file 
 
-```
-* Download the library [here](https://www.dropbox.com/s/mk94fvn9w9hvddf/volley.jar?dl=0).
+* Download the library [here](https://www.dropbox.com/s/mk94fvn9w9hvddf/volley.jar?dl=0) .
 * Copy the required jar files in your libs folder of the project.
 * Copy the VolleyTask.java file in your src folder.
-```
 
 ## Required Permissions
 
