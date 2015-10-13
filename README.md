@@ -20,7 +20,7 @@ volley.jar
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 ```
 
-## Request Method Processing
+## Request Method Process
 
 4 parameters need to be passed. They are as follows
 
